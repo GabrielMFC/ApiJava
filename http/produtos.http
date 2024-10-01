@@ -1,0 +1,48 @@
+GET http://localhost:8080/api/produtos
+###
+
+GET http://localhost:8080/api/usuarios
+###
+
+POST http://localhost:8080/api/produtos
+Content-Type: application/json
+
+{
+    "nome":"Apagador Faber Castel",
+    "categoria":"Materiais escolares"
+}
+###
+
+POST http://localhost:8080/api/usuarios
+Content-Type: application/json
+
+{
+    "nome":"Júlio Marcos",
+    "cep":"2700-500",
+    "rua":"Rua 5",
+    "numero":"80",
+    "bairro":"Vila Maia",
+    "complemento":"",
+    "cidade":"Itatiaia",
+    "estado":"Rio de Janeiro"
+}
+
+###
+DELETE http://localhost:8080/api/produtos/2
+
+###
+
+PUT http://localhost:8080/api/usuarios/2
+Content-Type: application/json
+
+{
+    "nome":"Marcos",
+    "cep":"2700-500",
+    "rua":"Rua 5",
+    "numero":"80",
+    "bairro":"Vila Maia",
+    "complemento":"",
+    "cidade":"Itatiaia",
+    "estado":"Rio de Janeiro"
+}
+

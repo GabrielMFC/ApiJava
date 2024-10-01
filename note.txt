@@ -1,0 +1,24 @@
+Você foi convidado a desenvolver uma API para um novo sistema de ECommerce, com isso a parte inicial da API Ficou em sua responsabildiade.
+Se atente para atender as seguintes ações:
+
+
+CRUD completo de produtos. 
+
+CRUD Completo de categorias.
+
+Consultar uma lista de produtos vinculada a uma categoria.
+
+Consultar um produto pelo seu id.
+
+CRUD completo de Cliente
+
+Todo cliente pode ter muitos endereços.
+
+Todo endereço deve ter (CEP, Rua, Numero, Bairro, Complemento, Cidade e Estado)
+
+Obs:
+
+Criar toda api seguindo passo a passo as boas práticas aprendidas durante o curso.
+
+Tota entrega deve ser feita entregando o código mais um link na plataforma com um video de até 10 minutos explicando a API.
+O video vale 50% da nota do desafio.
